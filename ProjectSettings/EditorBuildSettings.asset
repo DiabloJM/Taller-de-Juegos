@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Main Menu/Scenes/Main Menu.unity
+    guid: b4675bac2b137b640aeab0bcf940d344
+  - enabled: 1
+    path: Assets/SpaceShooter/Scenes/TVJ_JoseFernandoJimenezMichel_SpaceShooter.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Beat Them All/Scenes/TVJ_JoseFernandoJimenezMichel_BeatEmUp.unity
+    guid: 9c6fad6c7a28e7e48974f0515d639e8f
+  - enabled: 1
+    path: Assets/Beat Them All/Scenes/TVJ_JoseFernandoJimenezMichel_BeatEmUp2.unity
+    guid: 5aa1702ee0a869b4cadb2572f25c5024
+  - enabled: 1
+    path: Assets/SheepItUp/Scenes/TVJ_JoseFernandoJimenezMichel_SheepItUp.unity
+    guid: bd4098331583e7a4a882061360dbcc83
+  - enabled: 1
+    path: Assets/Endless Runner/Scenes/TVJ_JoseFernandoJimenezMichel_EndlessRunner.unity
+    guid: abd8bad9ed8cd114d9cbf4ce00464d9d
+  m_configObjects: {}
