@@ -54,6 +54,7 @@ public class SS_ScoreManager : MonoBehaviour
             winLives[2] = true;
 
             //Desplegar pantalla de victoria
+            SS_AbstractScore.instance.MakeScore();
             victoryScreen.SetActive(true);
             player.gameObject.SetActive(false);
         }

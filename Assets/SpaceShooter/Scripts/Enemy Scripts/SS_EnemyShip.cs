@@ -75,6 +75,7 @@ public class SS_EnemyShip : MonoBehaviour
             //Checar si el valor del _temp en x es menor al valor del limite en x
             if(_temp.x < boundX)
             {
+                SS_AbstractScore.instance.EnemyScape();
                 //Destruir al gameObject que tiebe este script
                 Destroy(gameObject);
             }

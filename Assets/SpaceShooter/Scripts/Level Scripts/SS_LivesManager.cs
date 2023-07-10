@@ -96,4 +96,10 @@ public class SS_LivesManager : MonoBehaviour
         //Aumentar el contador de vidas
         livesCounter++;
     }
+
+    //Metodo para saber las vidas actuales
+    public int KnowLives()
+    {
+        return livesCounter;
+    }
 }
